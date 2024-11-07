@@ -5,10 +5,11 @@ type Props = {
     children: ReactNode;
     modal: ReactNode;
 }
-export default function Layout({children}: Props) {
+export default function Layout({children, modal}: Props) {
     return (
         <div className={styles.container}>
             {children}
+            {modal}
         </div>
     )
 }
