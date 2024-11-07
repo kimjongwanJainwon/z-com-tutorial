@@ -2,7 +2,6 @@ export default function Layout({children, modal}: { children: React.ReactNode, m
     return (
         <div>
             {children}
-            {modal}
         </div>
     )
 }
